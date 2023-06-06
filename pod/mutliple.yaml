@@ -7,7 +7,7 @@ spec:
   - image: nginx
     name: nginx
     ports:
-      containerport: 80
+    - containerport: 80
   - image: almalinux
     name: alamalinux
-  command: ["sleep","20"]
+    command: ["sleep","20"]

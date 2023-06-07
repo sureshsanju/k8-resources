@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: labels-pod
+ labels:
+  course: testing
+  duration: 10days
+spec:
+ containers:
+  - name: nginx
+    image: nginx
+    ports:
+     containerPort:80
+  
